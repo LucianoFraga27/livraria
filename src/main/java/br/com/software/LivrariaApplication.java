@@ -1,13 +1,13 @@
-package br.com.software.app;
+package br.com.software;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ModeloApplication {
+public class LivrariaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ModeloApplication.class, args);
+		SpringApplication.run(LivrariaApplication.class, args);
 	}
 
 }

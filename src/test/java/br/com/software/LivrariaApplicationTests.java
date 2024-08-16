@@ -1,10 +1,10 @@
-package br.com.software.app;
+package br.com.software;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ModeloApplicationTests {
+class LivrariaApplicationTests {
 
 	@Test
 	void contextLoads() {
