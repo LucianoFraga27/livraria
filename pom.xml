@@ -23,6 +23,7 @@
 	</developers>
 	<modules>
 		<module>app</module>
+		<module>api</module>
 	</modules>
 	<scm>
 		<connection/>
