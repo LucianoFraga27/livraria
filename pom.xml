@@ -53,20 +53,16 @@
 			<scope>test</scope>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>br.com.software</groupId>-->
-<!--			<artifactId>api</artifactId>-->
-<!--			<version>0.0.1</version>-->
-<!--		</dependency>-->
-
 	</dependencies>
 
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
 		</plugins>
 	</build>
 
