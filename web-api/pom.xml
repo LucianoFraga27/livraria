@@ -9,7 +9,7 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>api</artifactId>
+    <artifactId>web-api</artifactId>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -21,7 +21,7 @@
 
         <dependency>
             <groupId>br.com.software</groupId>
-            <artifactId>app</artifactId>
+            <artifactId>business</artifactId>
             <version>0.0.1</version>
         </dependency>
 

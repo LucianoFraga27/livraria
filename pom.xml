@@ -22,8 +22,8 @@
         <developer/>
     </developers>
     <modules>
-        <module>app</module>
-        <module>api</module>
+        <module>business</module>
+        <module>web-api</module>
     </modules>
 
     <scm>

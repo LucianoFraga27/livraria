@@ -10,7 +10,7 @@
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>app</artifactId>
+    <artifactId>business</artifactId>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
