@@ -24,6 +24,7 @@
     <modules>
         <module>business</module>
         <module>web-api</module>
+        <module>persistence</module>
     </modules>
 
     <scm>
