@@ -18,25 +18,22 @@ paths:
     post:
       tags:
         - users
-      summary: Create user
-      description: Create a user.
-      operationId: createUser
+      summary: Create Autor
+      description: Create a Autor.
+      operationId: createAutor
       requestBody:
         description: Created user object
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UserRequest'
+              $ref: '#/components/schemas/AutorRequestDTO'
           application/xml:
             schema:
-              $ref: '#/components/schemas/UserRequest'
+              $ref: '#/components/schemas/AutorRequestDTO'
       responses:
         200:
           description: successful operation
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UserResponse'
+
     get:
       tags:
         - users
@@ -121,6 +118,16 @@ paths:
           description: User not found
 components:
   schemas:
+
+    AutorRequestDTO:
+      type: object
+      required:
+        - nome
+      properties:
+        nome:
+          type: string
+          example: Luciano
+
     UserRequest:
       type: object
       required:

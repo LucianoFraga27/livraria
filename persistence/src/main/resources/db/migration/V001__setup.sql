@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS inventario;
+
+CREATE TABLE inventario.autor
+(
+    id   BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
