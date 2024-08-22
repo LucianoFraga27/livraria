@@ -1,5 +1,6 @@
 package br.com.software.service;
 
+import br.com.software.persistence.autor.Autor;
 import br.com.software.persistence.autor.AutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,6 +22,12 @@ public class LivrariaTesteService {
         System.err.println("Listando baseado no meu service");
         return autorRepository.findAll();
     }
+
+    public void create(Autor autor) {
+        System.err.println("Criando baseado no meu service");
+        autorRepository.create(autor);
+    }
+
 
 
 }
